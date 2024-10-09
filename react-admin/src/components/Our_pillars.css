@@ -1,0 +1,35 @@
+.boxes{
+  margin-left: 6rem;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  gap: 5rem;
+  padding: 1rem;
+}
+.head{
+  margin-left: 5rem;
+}
+
+.box{
+  background-color: #ffffff;
+  border: 1px solid #dbc1edcc;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 20px black;
+  transition: 0.5s;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+.box:hover{
+  scale: 1.1;
+  box-shadow: 2px 2px 20px #867c7c;
+  background: #e2c3edcc;
+}
+.para-head{
+  text-align: center;
+  margin: 1.2rem;
+}
+.para{
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}

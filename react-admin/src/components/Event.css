@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=DM+Sans:opsz@9..40&family=Dosis:wght@300&family=Mina:wght@700&family=Rubik+Doodle+Shadow&family=Teko:wght@300&display=swap');
+.Event-contain{
+  margin:0 4rem 0 4rem;
+  height: 60vh;
+  width: 90%;
+  color:black;
+}
+.Event-head{
+  display: flex;
+  justify-content: flex-start;
+}
+.head{
+  color:white;
+}
+.side{
+  display: flex;
+  height: 4.5rem;
+  width:20rem;
+  align-items:center;
+  justify-content: center;
+}
+.Eboxes{
+  display: grid;
+  font-family: 'Rubik Doodle Shadow';
+  grid-template-columns: auto auto auto;
+  gap:5rem;
+  padding: 1rem;
+}
+.boxs{
+  height:22rem;
+  background-color: white;
+  border: 1px solid rgba(219, 193, 237, 0.8);
+  border-radius: 2rem;
+  box-shadow: 2px 2px 20px black;
+  transition: 0.5s;
+  padding: 1.5rem;
+  line-height: 1.2rem;
+  cursor: pointer;
+}
+.boxs:hover{
+  background: #f9c7f9;
+  box-shadow: 2px 2px 20px #f9c7f9;
+}
+.date h3{
+  font-size: 4rem;
+
+}
+.date h4{
+  font-size: 1.2rem;
+}
+.desc{
+  margin-top: 5rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.6rem;
+  font-size: 1.3rem;
+}
